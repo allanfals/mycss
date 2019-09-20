@@ -18,7 +18,7 @@
 
 		var	$window = $(window),
 			$body = $('body'),
-			$header = $('#header'),
+			$snbheader = $('#snbheader'),
 			$footer = $('#footer');
 
 		// Disable animations/transitions until the page has loaded.
@@ -41,8 +41,8 @@
 				);
 			});
 
-		// Header.
-			$header.each( function() {
+		// snbHeader.
+			$snbheader.each( function() {
 
 				var t 		= jQuery(this),
 					button 	= t.find('.button');
